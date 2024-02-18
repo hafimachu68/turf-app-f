@@ -1,0 +1,290 @@
+/* CourtBooking.css */
+
+/* Styles for the main container */
+.single-court-img-box {
+    position: relative;
+  }
+  
+  .single-court-img-box img {
+    width: 100%;
+    height: auto;
+  }
+  .optn-img{
+    width: 35px !important;
+  }
+  
+  .court-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background:#A6BB8D;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Adjust the justification */
+     width: calc(100% - 20px);
+    
+  }
+  .slot-p{
+    background-color:   #3C6255 !important;
+  }
+  .court-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(166, 187, 141, 0.8); /* Adjust the alpha value (0.8) as needed */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+}
+
+.rolling.booking {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #EAE7B1;
+  background-color: #010203;
+  padding: 10px;
+} 
+
+  /* Styles for the date picker and time slots
+  .date-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slotname-container {
+    margin-top: 10px;
+  }
+  
+  .slotname-container span {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+/*   
+  .container-fluid.slot-p {
+    background-color: #1b4686 !important; /* Adjust background color as needed 
+  } */
+  .slt{
+    background-color:  #A6BB8D !important;
+    width: 750px !important;
+    height: auto;
+  }
+  .date-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px
+  }
+  
+  /* .date-picker button {
+    width: auto; /* Adjust button width as needed */
+  
+   */
+  .date-picker input[type="date"] {
+    flex: 1; 
+    margin-right: 10px;  
+    /* padding-right: 1rem !important; */
+  }
+  
+  .date-picker button.search-button {
+    width: 100px; 
+    background-color: #010203;
+  } 
+  
+  .slotname-container {
+    margin-top: 10px;
+  }
+  .b-r{
+    margin-left: 1rem !important;
+  }
+  
+  .slotname-container span {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #eee !important;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add more specific styling for the slots as needed */
+  .slotname-container span.bg-primary {
+    background-color: #007bff !important; /* Adjust primary slot background color */
+    color: #dd1a1a; /* Adjust primary slot text color */
+  }
+  
+  .slotname-container span.bg-warning {
+    background-color: #EAE7B1 !important; /* Adjust warning slot background color */
+    color: #010203; /* Adjust warning slot text color */
+    font-weight: 500;
+  }
+
+
+.dropdown-overlay {
+  position: absolute !important;
+  top: 10px; /* Adjust the top position */
+  left: 10px; /* Adjust the right position */
+  z-index: 1000; /* Ensure the dropdown is above other content */
+  /* Additional styling for the dropdown */
+}
+
+
+/* Styles for the modal */
+.modal-content {
+  background-color:#EAE7B1 !important;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Styles for the input fields */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* CourtBooking.css */
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: #EAE7B1; /* Background color for the modal */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Styles for the input fields */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Styles for the buttons */
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #010203; /* Background color for the button */
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown */
+.cus-drop-down {
+  position: relative;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.cus-drop-down {
+  position: relative;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #010203;
+  color: #fff;
+}
+
+/* Styles for the dropdown options */
+.cus-option {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.cus-option ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cus-option li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  color:#010203
+}
+
+.cus-option li:last-child {
+  border-bottom: none;
+}
+
+/* Styles for the selected time slots */
+.selected-time-slot {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #888;
+  cursor: pointer;
+  color: #333;
+}
+/* Styles for the close button */
+ 
+.selected-time-slot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+
+
+}
+
+.selected-time-slot span {
+  margin-right: 5px;
+  
+}
+
+.cloe-button {
+  cursor: pointer;
+  color:  black;
+  margin-bottom: 1rem;
+}

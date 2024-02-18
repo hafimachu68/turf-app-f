@@ -1,0 +1,43 @@
+/* custom-navbar.css */
+
+.navbar-brand {
+    color: #3C6255 !important;
+}
+.custom {
+    background-color: #010203; /* Change the background color of the navbar */
+   
+  }
+  .logo-img{
+    width: 50px !important;
+   }
+   .navbar-brand-custom {
+    color: #EAE7B1!important; /* Change the color of the navbar brand text */
+    
+  }
+
+.navbar-nav .nav-link {
+    color: #EAE7B1 !important;
+}
+
+.navbar-nav .nav-link.disabled {
+    color: #EAE7B1 !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #3C6255 !important;
+}
+
+.dropdown-toggle {
+    color: #EAE7B1!important;
+    background-color: #3C6255 !important;
+
+}
+
+.dropdown-menu {
+    background-color: #EAE7B1 !important;
+    color: #3C6255 ;
+}
+
+.navbar-text {
+    color: #EAE7B1 !important;
+}

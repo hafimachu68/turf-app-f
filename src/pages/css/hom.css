@@ -1,0 +1,31 @@
+/* Home.css */
+
+/* Make Carousel images fluid */
+.carousel-item img {
+    width: 100% !important; /* Occupy the entire width of the parent container */
+    height: 440px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  }
+  /* Customize the caption styles if needed */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    padding: 10px;
+  }
+  .p-b {
+    background-color:  #3C6255 ;
+    background-image: radial-gradient(650px circle at 0% 0%,
+    #3C6255 15%,
+    #61876E 35%,
+    #A6BB8D 75%,
+    #EAE7B1 80%,
+    transparent 100%),
+  radial-gradient(1250px circle at 100% 100%,
+    #3C6255 15%,
+    #61876E 35%,
+    #A6BB8D 75%,
+    #EAE7B1 80%,
+    transparent 100%);
+    /* Change this to the color of your choice */
+  }
+  
