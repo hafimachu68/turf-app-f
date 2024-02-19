@@ -47,7 +47,6 @@ function CourtBooking() {
     image: null
   });
   const [deleteModalOpen, setDeleteModalOpen] = useState(false);
-  const [itemIdToDelete, setItemIdToDelete] = useState(null);
   const navigate=useNavigate()
  
   const handleInputChange = (e) => {
@@ -61,10 +60,9 @@ function CourtBooking() {
 
   useEffect(() => {
     getSingleCourtData()
-    // getTimeSlotData(new Date())
     handleToday()
 
-  }, [])
+  })
 
   useEffect(() => {
 
@@ -136,15 +134,7 @@ function CourtBooking() {
     setInputDate(tomorrowDate);
     getTimeSlotData(tomorrowDate); // Fetch slots for tomorrow immediately
   };
-  // const getLatestUpdatedData= (courtId) => {
-  //     Axiosinstance.get('/users/getLatestUpdatedData', { params: { courtId: courtId } })
-  //         .then((res) => {
-  //             console.log('Latest Date:', res.data.latestDate);
-  //         })
-  //         .catch((err) => {
-  //             console.log(err);
-  //         });
-  // };
+  
 
   const handleSlot = (e) => {
     setTimeSlot({ ...timeSlot, [e.target.name]: e.target.value })
